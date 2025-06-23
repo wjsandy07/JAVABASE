@@ -18,11 +18,10 @@ public class CalculadoraSimple {
         int resta = a - b;
         System.out.println("Resta: " + resta);
 
-
-
-
-
-
+        //Multiplicacion
+        int multi = a*b;
+        System.out.println("Multiplicacion: " + multi);
+			
         //Division
         if (b != 0) {
             double division = a / b;
